@@ -1,17 +1,17 @@
 {
-  "name": "react-native-module-template",
-  "version": "2.5.1",
-  "description": "A starter for the React Native library written in TypeScript, with linked example project and optional native code in Swift and Kotlin.",
-  "homepage": "https://github.com/demchenkoalex/react-native-module-template#readme",
+  "name": "react-native-webview-paystack-2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/demchenkoalex/react-native-webview-paystack-2#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Alex Demchenko <alexdemchenko@yahoo.com>",
+  "author": "segun opeyemi <segope44@gmail.com>",
   "license": "MIT",
   "files": [
     "android",
     "ios",
     "lib",
-    "react-native-module-template.podspec",
+    "react-native-webview-paystack-2.podspec",
     "!android/build",
     "!.DS_Store",
     "!.gradle",
@@ -39,6 +39,7 @@
     "@types/jest": "^27.4.0",
     "@types/react-native": "^0.66.15",
     "@types/react-test-renderer": "^17.0.1",
+    "@types/validator": "^13.11.1",
     "babel-jest": "^27.4.6",
     "eslint": "^7.32.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
@@ -46,6 +47,7 @@
     "metro-react-native-babel-preset": "^0.67.0",
     "react": "^17.0.2",
     "react-native": "^0.67.1",
+    "react-native-webview": "^13.5.1",
     "react-test-renderer": "^17.0.2",
     "typescript": "^4.5.5"
   },
@@ -63,5 +65,8 @@
       "json",
       "node"
     ]
+  },
+  "dependencies": {
+    "validator": "^13.11.0"
   }
 }
