@@ -13,7 +13,7 @@ const App = () => {
   return (
     <View style={styles.container}>
       <Paystack
-        paystackKey={'sk_test_7d03537ff99eb51dc3d76f2da5acaa0ff36dad1b'}
+        paystackKey={'paystack-id-goes-here'}
         onCancel={() => {}}
         onSuccess={() => {}}
         billingEmail={'segope44@gmail.com'}
